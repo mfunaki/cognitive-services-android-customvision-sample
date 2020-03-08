@@ -46,7 +46,7 @@ public class MSCognitiveServicesCustomVisionClassifier implements ICognitiveServ
         // Build a config object for ImageClassifier
         // Specify the folder that contains the model file and its manifest file
         ImageClassifier.Configuration config = ImageClassifier.ConfigurationBuilder()
-                .setModelFile("fruits-tflite/cvexport.manifest").build();
+                .setModelFile("mengshen-tflite/cvexport.manifest").build();
 
         // Instantiate an ImageClassifier
         classifierRuntime = new ImageClassifier(config);
